@@ -1,0 +1,2 @@
+simplet5==0.1.4
+streamlit==1.14.1
