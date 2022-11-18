@@ -1,19 +1,26 @@
 import streamlit as st
-from src.summary import summarize
+from src.summary import get_mom
+from src.util import show_text
 
 st.write("# Minutes of Meeting Maker")
 
-transcript = st.text_area("Paste your transcript here", height=300, placeholder="Olivia: Who are you voting for in this election?\nOliver: Liberals as always.\nOlivia: Me too!!\nOliver: Great")
+transcript = st.text_area(
+    "Paste your transcript here",
+    height=300,
+    placeholder=show_text,
+)
 
 if st.button("Generate Minutes"):
     if transcript:
-        with st.spinner("Generating Minutes..."):
-            summary = summarize(transcript)
-            st.write("## Minutes Generated")
-            st.write(summary[0])
-            st.balloons()
+
+        progress_bar = st.progress(0)
+        summary = get_mom(transcript, progress_bar)
+        st.write("## Minutes Generated")
+        mom = ""
+        for i, point in enumerate(summary):
+            mom += f"- {point}\n"
+        st.write(mom)
+        st.balloons()
+        progress_bar.empty()
     else:
         st.write("Please paste your transcript")
-
-
-
