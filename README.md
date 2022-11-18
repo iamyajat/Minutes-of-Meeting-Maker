@@ -1,4 +1,5 @@
 # Minutes of Meeting Maker
+![image](https://user-images.githubusercontent.com/68477362/202777104-1680342f-872b-4f82-81e0-0221178b6f43.png)
 
 ## How to run?
 
