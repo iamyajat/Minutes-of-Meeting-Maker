@@ -1,1 +1,9 @@
-Hannah: Hey, do you have Betty's number?\nAmanda: Lemme check\nHannah: <file_gif>\nAmanda: Sorry, can't find it.\nAmanda: Ask Larry\nAmanda: He called her last time we were at the park together\nHannah: I don't know him well\nHannah: <file_gif>\nAmanda: Don't be shy, he's very nice\nHannah: If you say so..\nHannah: I'd rather you texted him\nAmanda: Just text him 🙂
+Larry: We have called today's meeting to talk about the marketing strategies that we should  be employing for the launch of our new product.
+Jane: I have an idea.
+Larry: Please go ahead, Jane.
+Jane: We should have a contest.
+Larry: What kind of contest?
+Jane: A social media contest.
+Larry: Sounds interesting. Could you elaborate on it?
+Jane: We can have a hashtag and people can post pictures of themselves using our product. We can  then pick a winner and give them a prize.
+Larry: That sounds like a great idea. Let's do it.
